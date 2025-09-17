@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43e45a24-855b-4b15-91d9-2b82f65d70f1" name="更改" comment="">
+    <list default="true" id="43e45a24-855b-4b15-91d9-2b82f65d70f1" name="更改" comment="实现多元线性回归">
       <change afterPath="$PROJECT_DIR$/.idea/Deep-Learn-note.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
@@ -38,12 +38,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.多元线性回归.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="多元线性回归" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Deep-Learn-note" />
@@ -191,6 +192,19 @@
       <option name="presentableId" value="Default" />
       <updated>1758075080491</updated>
     </task>
+    <task id="LOCAL-00001" summary="实现多元线性回归">
+      <option name="closed" value="true" />
+      <created>1758080080541</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758080080541</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="实现多元线性回归" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现多元线性回归" />
   </component>
 </project>
