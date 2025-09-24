@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43e45a24-855b-4b15-91d9-2b82f65d70f1" name="更改" comment="实现多元线性回归">
-      <change afterPath="$PROJECT_DIR$/PyTorch/tensor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PyTorch/线性回归.py" afterDir="false" />
+    <list default="true" id="43e45a24-855b-4b15-91d9-2b82f65d70f1" name="更改" comment="pyTorch实现线性回归">
+      <change afterPath="$PROJECT_DIR$/PyTorch/归一化.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyTorch/线性回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyTorch/线性回归.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +49,13 @@
   "keyToString": {
     "Python.tensor.executor": "Run",
     "Python.多元线性回归.executor": "Run",
+    "Python.归一化.executor": "Run",
     "Python.线性回归.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.线性回归">
+  <component name="RunManager" selected="Python.归一化">
     <configuration name="多元线性回归" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Deep-Learn-note" />
       <option name="ENV_FILES" value="" />
@@ -69,6 +70,50 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/线性回归/多元线性回归.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="线性回归" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Deep-Learn-note" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyTorch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyTorch/线性回归.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="归一化" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Deep-Learn-note" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PyTorch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PyTorch/归一化.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -123,6 +168,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.归一化" />
         <item itemvalue="Python.线性回归" />
         <item itemvalue="Python.tensor" />
         <item itemvalue="Python.多元线性回归" />
@@ -169,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758080470643</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="pyTorch实现线性回归">
+      <option name="closed" value="true" />
+      <created>1758637341151</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758637341151</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -185,6 +239,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="实现多元线性回归" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现多元线性回归" />
+    <MESSAGE value="pyTorch实现线性回归" />
+    <option name="LAST_COMMIT_MESSAGE" value="pyTorch实现线性回归" />
   </component>
 </project>
