@@ -4,7 +4,6 @@ from torch.utils.data import Dataset,DataLoader
 import torch
 
 
-
 class TitanicDataset(Dataset):
     def __init__(self,file_path):
         self.file_path=file_path
