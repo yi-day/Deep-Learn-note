@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="43e45a24-855b-4b15-91d9-2b82f65d70f1" name="更改" comment="pyTorch实现线性回归">
-      <change afterPath="$PROJECT_DIR$/PyTorch/归一化.py" afterDir="false" />
+    <list default="true" id="43e45a24-855b-4b15-91d9-2b82f65d70f1" name="更改" comment="实现泰坦尼克号生存预测">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyTorch/线性回归.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyTorch/线性回归.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/逻辑回归/.idea/Deep-Learn-note.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/逻辑回归/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/逻辑回归/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/逻辑回归/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/逻辑回归/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/逻辑回归/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/逻辑回归/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/逻辑回归/PyTorch/归一化.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/逻辑回归/PyTorch/线性回归.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/逻辑回归/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/逻辑回归/线性回归/多元线性回归.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +32,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/逻辑回归" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -45,17 +55,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.tensor.executor": "Run",
-    "Python.多元线性回归.executor": "Run",
-    "Python.归一化.executor": "Run",
-    "Python.线性回归.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.temporary.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tensor.executor&quot;: &quot;Run&quot;,
+    &quot;Python.titanic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.多元线性回归.executor&quot;: &quot;Run&quot;,
+    &quot;Python.归一化.executor&quot;: &quot;Run&quot;,
+    &quot;Python.线性回归.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Python/Project-python/Deep-Learn-note/逻辑回归/data&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Python.归一化">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Python\Project-python\Deep-Learn-note\逻辑回归\data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.titanic">
     <configuration name="多元线性回归" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Deep-Learn-note" />
       <option name="ENV_FILES" value="" />
@@ -144,6 +162,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="temporary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Deep-Learn-note" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/逻辑回归/泰坦尼克号生存预测" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/逻辑回归/泰坦尼克号生存预测/temporary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="tensor" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Deep-Learn-note" />
       <option name="ENV_FILES" value="" />
@@ -166,10 +206,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="titanic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Deep-Learn-note" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/逻辑回归/泰坦尼克号生存预测" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/逻辑回归/泰坦尼克号生存预测/titanic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.归一化" />
-        <item itemvalue="Python.线性回归" />
+        <item itemvalue="Python.titanic" />
+        <item itemvalue="Python.temporary" />
         <item itemvalue="Python.tensor" />
         <item itemvalue="Python.多元线性回归" />
       </list>
@@ -223,7 +285,47 @@
       <option name="project" value="LOCAL" />
       <updated>1758637341151</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="pyTorch实现线性回归">
+      <option name="closed" value="true" />
+      <created>1758719799471</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1758719799471</updated>
+    </task>
+    <task id="LOCAL-00006" summary="实现归一化">
+      <option name="closed" value="true" />
+      <created>1758720491627</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758720491627</updated>
+    </task>
+    <task id="LOCAL-00007" summary="实现泰坦尼克号生存预测">
+      <option name="closed" value="true" />
+      <created>1758809677714</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758809677714</updated>
+    </task>
+    <task id="LOCAL-00008" summary="实现泰坦尼克号生存预测">
+      <option name="closed" value="true" />
+      <created>1758811252014</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758811252014</updated>
+    </task>
+    <task id="LOCAL-00009" summary="实现泰坦尼克号生存预测">
+      <option name="closed" value="true" />
+      <created>1758811365313</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758811365313</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -231,7 +333,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -240,6 +354,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="实现多元线性回归" />
     <MESSAGE value="pyTorch实现线性回归" />
-    <option name="LAST_COMMIT_MESSAGE" value="pyTorch实现线性回归" />
+    <MESSAGE value="实现归一化" />
+    <MESSAGE value="实现泰坦尼克号生存预测" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现泰坦尼克号生存预测" />
   </component>
 </project>
